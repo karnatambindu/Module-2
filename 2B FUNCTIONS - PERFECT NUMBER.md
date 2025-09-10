@@ -1,32 +1,26 @@
-# Exp.No:2b  
-## FUNCTIONS - PERFECT NUMBER
+# Exp.No:2b FUNCTIONS - MODULO
+# AIM
+To write a Python program to define a function that accepts two values and returns their modulo value.
 
-### AIM  
-To write a Python program to check if a number is a Perfect number using the concept of functions.
+# ALGORITHM
+1. Begin the program.
+2. Read two numbers a and b from the user using input().
+3. 3Convert the inputs to integers using int(). Define a function result(a, b) with the following steps:
+4. Calculate the modulo using a % b and store it in a variable d. Print the result using a formatted string.
+5. Call the function result(a, b) with the user inputs.
+6. Terminate the program.
 
----
-
-### ALGORITHM
-
-1. Begin the program.  
-2. Read the number `n` from the user using `input()`.  
-3. Convert the input to an integer.  
-4. Define the function `perfectNumber(n)` with the following steps:  
-    - Initialize a variable `factor_sum` to 0.  
-    - Iterate through all numbers from 1 to `n//2` (as divisors of a number can't be greater than half of it).  
-    - If a number `i` divides `n` perfectly (i.e., `n % i == 0`), add `i` to `factor_sum`.  
-    - If `factor_sum` is equal to `n`, then print the number is a perfect number. Otherwise, print it's not a perfect number.  
-5. Terminate the program.
-
----
-
-### PROGRAM
+# PROGRAM
+212223060113-Karnatam Bindu
 ```
-#Reg.No:
-#Name:
-#Add your Code Here
-
+def result(a,b):
+  d=a%b
+print(f"modulo is {d}")
+a = int(input())
+b = int(input())
 ```
-### OUTPUT
+# OUTPUT
+<img width="1193" height="306" alt="image" src="https://github.com/user-attachments/assets/455474ce-e91f-4566-81f0-0052c51abaa9" />
 
-### RESULT
+# RESULT
+Thus the program to define a function that accepts two values and returns their modulo value has been implemented and executed successfully.
